@@ -14,8 +14,8 @@ class MainApp(QWidget):
 
         self.setWindowIcon(QIcon("./assets/icon.ico"))
 
-
-        self.setGeometry(0,0,self.maximumWidth(),self.maximumHeight())
+        self.showMaximized()
+       
         # 🌟 Main Layout (Vertical)
         main_layout = QVBoxLayout(self)
         main_layout.setContentsMargins(0, 0, 0, 0)
